@@ -1,0 +1,297 @@
+{
+  "schema": 1,
+  "version": 1,
+  "policy": {
+    "googleRewardedMinIntervalMinutes": 20,
+    "promoSeconds": 10
+  },
+  "apps": [
+    {
+      "package": "com.mobilecastle.battscope",
+      "name": "BattScope: Battery Monitor",
+      "audience": "general",
+      "since": "2026-11-04",
+      "banner": {
+        "url": "battscope/banner-1.webp",
+        "sha256": "63c78f8bab686f2dcda52f09efec9b505ebc6df277acca5a4f25f3459b6b2f40",
+        "bytes": 19520
+      },
+      "promo": {
+        "url": "battscope/promo-1.webp",
+        "sha256": "ee5a5b0e192c370a4e6ecf6b18416e869d7deb503ab1d62a9c9a3dae53b177f3",
+        "bytes": 80064
+      },
+      "promoLandscape": {
+        "url": "battscope/promo-landscape-1.webp",
+        "sha256": "ed2d44659ecab37ca433e19d9f51c46d96349cf3d8895a6fcbfa20ecdfb79e2c",
+        "bytes": 71426
+      },
+      "text": {
+        "en": "Live battery current, voltage and temperature. Record charging and discharge.",
+        "de": "Akkustrom, Spannung und Temperatur live. Lade- und Entladevorgänge aufzeichnen.",
+        "es": "Corriente, voltaje y temperatura de la batería al instante. Registra tus cargas.",
+        "fr": "Courant, tension et température de la batterie en direct. Charges enregistrées.",
+        "it": "Corrente, tensione e temperatura della batteria dal vivo. Registra le ricariche.",
+        "pt": "Corrente, tensão e temperatura da bateria ao vivo. Grave cargas e descargas.",
+        "nl": "Batterijstroom, spanning en temperatuur live. Neem laad- en ontlaadsessies op.",
+        "ru": "Ток, напряжение и температура батареи онлайн. Запись зарядки и разряда.",
+        "pl": "Prąd, napięcie i temperatura baterii na żywo. Zapis ładowania i rozładowania.",
+        "tr": "Pil akımı, voltajı ve sıcaklığı canlı. Şarj ve deşarj oturumlarını kaydedin.",
+        "ar": "تيار البطارية وجهدها وحرارتها مباشرةً، مع تسجيل جلسات الشحن والتفريغ.",
+        "hi": "बैटरी का करंट, वोल्टेज और तापमान लाइव। चार्जिंग और डिस्चार्ज रिकॉर्ड करें।",
+        "id": "Arus, tegangan, dan suhu baterai secara langsung. Rekam pengisian dan pemakaian.",
+        "vi": "Dòng điện, điện áp và nhiệt độ pin theo thời gian thực. Ghi phiên sạc và xả pin.",
+        "ja": "バッテリーの電流・電圧・温度をリアルタイム表示。充電と放電を記録できます。",
+        "ko": "배터리 전류, 전압, 온도를 실시간으로 확인하고 충전과 방전을 기록하세요.",
+        "zh-Hans": "实时查看电池电流、电压和温度，记录充电与放电过程。",
+        "zh-Hant": "即時查看電池電流、電壓和溫度，記錄充電與放電過程。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.buildquanty",
+      "name": "BuildQuanty: Construction",
+      "audience": "general",
+      "since": "2026-11-04",
+      "banner": {
+        "url": "buildquanty/banner-1.webp",
+        "sha256": "7fbad6ea57fcc633778a92ac616a44fc0b6ee9cc098aebf3906ac6daff085adf",
+        "bytes": 22012
+      },
+      "promo": {
+        "url": "buildquanty/promo-1.webp",
+        "sha256": "0c67825261edc43859f0988113480beb5dd5a9c838497eaebe4b86e5ecb29de9",
+        "bytes": 84090
+      },
+      "promoLandscape": {
+        "url": "buildquanty/promo-landscape-1.webp",
+        "sha256": "262f472318c7f66189a3fb538c584f2b015ec698dedc822ff60809d8302376e1",
+        "bytes": 70898
+      },
+      "text": {
+        "en": "Concrete, bricks, tiles, paint and more: quantities and costs by project.",
+        "de": "Beton, Steine, Fliesen, Farbe und mehr: Mengen und Kosten je Projekt.",
+        "es": "Hormigón, ladrillos, azulejos y pintura: cantidades y costes por proyecto.",
+        "fr": "Béton, briques, carrelage, peinture : quantités et coûts par projet.",
+        "it": "Calcestruzzo, mattoni, piastrelle, pittura: quantità e costi per progetto.",
+        "pt": "Concreto, tijolos, pisos, tinta e mais: quantidades e custos por projeto.",
+        "nl": "Beton, stenen, tegels, verf en meer: hoeveelheden en kosten per project.",
+        "ru": "Бетон, кирпич, плитка, краска и другое: объёмы и стоимость по проектам.",
+        "pl": "Beton, cegły, płytki, farba i więcej: ilości i koszty dla każdego projektu.",
+        "tr": "Beton, tuğla, fayans, boya ve daha fazlası: proje bazında miktar ve maliyet.",
+        "ar": "كميات الخرسانة والطوب والبلاط والدهان وغيرها، مع التكاليف لكل مشروع.",
+        "hi": "कंक्रीट, ईंट, टाइल, पेंट और बहुत कुछ: हर प्रोजेक्ट की मात्रा और लागत।",
+        "id": "Beton, bata, keramik, cat, dan lainnya: volume dan biaya per proyek.",
+        "vi": "Bê tông, gạch, sơn, mái và hơn thế: khối lượng và chi phí theo dự án.",
+        "ja": "コンクリート、レンガ、タイル、塗料など。数量と費用をプロジェクトごとに。",
+        "ko": "콘크리트, 벽돌, 타일, 페인트 등 프로젝트별 물량과 비용을 계산하세요.",
+        "zh-Hans": "混凝土、砖、瓷砖、涂料等：按项目计算工程量和费用。",
+        "zh-Hant": "混凝土、磚、磁磚、油漆等：依專案計算數量與費用。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.castora",
+      "name": "Castora: TV Cast & IPTV Player",
+      "audience": "general",
+      "since": "2026-11-04",
+      "banner": {
+        "url": "castora/banner-1.webp",
+        "sha256": "437ddfac79f8f94737b76fc553a04c1265f5c508f6f22d385a05215337a4bfde",
+        "bytes": 22776
+      },
+      "promo": {
+        "url": "castora/promo-1.webp",
+        "sha256": "9d8c049e1b419dffb43163e5d7138c87e90e3c3a2c61835589105b93835c9cbe",
+        "bytes": 82662
+      },
+      "promoLandscape": {
+        "url": "castora/promo-landscape-1.webp",
+        "sha256": "853040e19447cf599df724d727384d279483e8b742ab034e4dd257ed6c360142",
+        "bytes": 72958
+      },
+      "text": {
+        "en": "Cast videos, music & photos to TV & Chromecast. IPTV player + Android TV app.",
+        "de": "Videos, Musik & Fotos auf TV & Chromecast casten. IPTV-Player + Android-TV-App.",
+        "es": "Envía vídeos, música y fotos a TV y Chromecast. Reproductor IPTV + Android TV",
+        "fr": "Vidéos, musique et photos sur TV et Chromecast. Lecteur IPTV + appli Android TV.",
+        "it": "Trasmetti video, musica e foto su TV e Chromecast. Lettore IPTV + app Android TV",
+        "pt": "Transmita vídeos, músicas e fotos na TV e Chromecast. Player IPTV + Android TV",
+        "nl": "Cast video's, muziek & foto's naar tv & Chromecast. IPTV-speler + Android TV-app",
+        "ru": "Транслируйте видео, музыку и фото на ТВ и Chromecast. IPTV-плеер + Android TV",
+        "pl": "Przesyłaj filmy, muzykę i zdjęcia na TV/Chromecast. Odtwarzacz IPTV + Android TV",
+        "tr": "Video, müzik ve fotoğrafı TV ve Chromecast'e aktarın. IPTV oynatıcı + Android TV",
+        "ar": "بث الفيديو والموسيقى والصور للتلفاز وChromecast. مشغّل IPTV + تطبيق Android TV.",
+        "hi": "वीडियो, संगीत, फ़ोटो TV व Chromecast पर कास्ट करें। IPTV प्लेयर + Android TV ऐप",
+        "id": "Cast video, musik & foto ke TV & Chromecast. Pemutar IPTV + aplikasi Android TV.",
+        "vi": "Chiếu video, nhạc, ảnh lên TV/Chromecast. Trình phát IPTV + ứng dụng Android TV.",
+        "ja": "動画・音楽・写真をテレビやChromecastにキャスト。ミラーリング不要。IPTVプレーヤー＋Android TVアプリ。",
+        "ko": "동영상·음악·사진을 TV와 Chromecast로 캐스트. 미러링 없이 선명하게. IPTV 플레이어 + Android TV 앱.",
+        "zh-Hans": "把手机里的视频、音乐和照片投屏到电视和 Chromecast。IPTV 播放器 + Android TV 应用。",
+        "zh-Hant": "將影片、音樂和相片投放到電視和 Chromecast。IPTV 播放器 + Android TV 應用程式。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.devicemint",
+      "name": "DeviceMint: Phone Diagnostics",
+      "audience": "general",
+      "since": "2026-11-04",
+      "banner": {
+        "url": "devicemint/banner-1.webp",
+        "sha256": "7499814a5214964b634af4152870eb02b76111565ec996d0a25a7cc71bf94615",
+        "bytes": 25332
+      },
+      "promo": {
+        "url": "devicemint/promo-1.webp",
+        "sha256": "cf40c1be6810a79df942b189a2f9c50f65ed40cfe2647637f27a7baf1b2d6e6d",
+        "bytes": 96522
+      },
+      "promoLandscape": {
+        "url": "devicemint/promo-landscape-1.webp",
+        "sha256": "42a31263c5c84f2dc06f003465783373ce1bf4d336679bf1b0679037658ef73e",
+        "bytes": 82212
+      },
+      "text": {
+        "en": "Test your phone's screen, sensors, cameras, sound and battery. Honest results.",
+        "de": "Teste Display, Sensoren, Kameras, Ton und Akku deines Handys. Ehrlich bewertet.",
+        "es": "Prueba la pantalla, sensores, cámaras, sonido y batería. Resultados honestos.",
+        "fr": "Testez écran, capteurs, caméras, son et batterie. Des résultats honnêtes.",
+        "it": "Testa schermo, sensori, fotocamere, audio e batteria. Risultati onesti.",
+        "pt": "Teste a tela, sensores, câmeras, som e bateria do celular. Resultados honestos.",
+        "nl": "Test scherm, sensoren, camera's, geluid en batterij. Eerlijke resultaten.",
+        "ru": "Проверьте экран, датчики, камеры, звук и батарею телефона. Честные результаты.",
+        "pl": "Testuj ekran, czujniki, aparaty, dźwięk i baterię telefonu. Uczciwe wyniki.",
+        "tr": "Ekranı, sensörleri, kameraları, sesi ve pili test edin. Dürüst sonuçlar.",
+        "ar": "افحص شاشة هاتفك ومستشعراته وكاميراته وصوته وبطاريته. نتائج صادقة.",
+        "hi": "फ़ोन की स्क्रीन, सेंसर, कैमरे, आवाज़ और बैटरी टेस्ट करें। सच्चे नतीजे।",
+        "id": "Tes layar, sensor, kamera, suara, dan baterai ponsel Anda. Hasil yang jujur.",
+        "vi": "Kiểm tra màn hình, cảm biến, camera, âm thanh và pin. Kết quả trung thực.",
+        "ja": "画面、センサー、カメラ、音、バッテリーをテスト。結果は正直にお伝えします。",
+        "ko": "휴대폰의 화면, 센서, 카메라, 소리, 배터리를 테스트하세요. 결과는 정직하게.",
+        "zh-Hans": "测试手机的屏幕、传感器、摄像头、声音和电池，结果如实呈现。",
+        "zh-Hant": "測試手機的螢幕、感應器、相機、音效和電池，結果如實呈現。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.formulagrid",
+      "name": "FormulaGrid: Calculator",
+      "audience": "general",
+      "since": "2026-11-04",
+      "banner": {
+        "url": "formulagrid/banner-1.webp",
+        "sha256": "2761595aa0d6d1214d353382a57344ec1a265f7b1c8d0633ac620d62490860f2",
+        "bytes": 21500
+      },
+      "promo": {
+        "url": "formulagrid/promo-1.webp",
+        "sha256": "11894f6a91308bbb32df3b7be86f41b017020892209aaec7f9500b3528d5b6ea",
+        "bytes": 69216
+      },
+      "promoLandscape": {
+        "url": "formulagrid/promo-landscape-1.webp",
+        "sha256": "d6bb8adfeee927d70421e2b4b4766b568531fa3371459d97437373090deeef9f",
+        "bytes": 60932
+      },
+      "text": {
+        "en": "Everyday, scientific, finance and engineering calculators in one fast app.",
+        "de": "Rechner für Alltag, Wissenschaft, Finanzen und Technik in einer schnellen App.",
+        "es": "Calculadoras cotidianas, científicas, financieras y de ingeniería en una app.",
+        "fr": "Calculateurs du quotidien, scientifiques, financiers et techniques en une appli.",
+        "it": "Calcolatrici quotidiane, scientifiche, finanziarie e tecniche in un'unica app.",
+        "pt": "Calculadoras do dia a dia, científicas, financeiras e de engenharia em um app.",
+        "nl": "Dagelijkse, wetenschappelijke, financiële en technische calculators in één app.",
+        "ru": "Калькуляторы на каждый день, для финансов, науки и техники в одном приложении.",
+        "pl": "Kalkulatory na co dzień, naukowe, finansowe i inżynierskie w jednej aplikacji.",
+        "tr": "Günlük, bilimsel, finans ve mühendislik hesaplayıcıları tek hızlı uygulamada.",
+        "ar": "حاسبات يومية وعلمية ومالية وهندسية في تطبيق واحد سريع.",
+        "hi": "रोज़मर्रा, साइंटिफ़िक, वित्त और इंजीनियरिंग कैलकुलेटर, एक तेज़ ऐप में।",
+        "id": "Kalkulator sehari-hari, ilmiah, keuangan, dan teknik dalam satu aplikasi cepat.",
+        "vi": "Công cụ tính hằng ngày, khoa học, tài chính và kỹ thuật trong một ứng dụng.",
+        "ja": "日常・関数・金融・工学の計算ツールを、ひとつの軽快なアプリに。",
+        "ko": "일상, 금융, 과학, 공학 계산기를 빠른 앱 하나에 담았습니다.",
+        "zh-Hans": "日常、科学、财务和工程计算器，尽在一个快速应用中。",
+        "zh-Hant": "日常、科學、財務和工程計算機，盡在一個快速的應用程式中。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.ohmcraft",
+      "name": "OhmCraft: Electronics Tools",
+      "audience": "general",
+      "since": "2026-11-04",
+      "banner": {
+        "url": "ohmcraft/banner-1.webp",
+        "sha256": "8f735eb99d8061f6f9d9cb78a53c49b6defa549fd7458e9e5061e4b88afe32a4",
+        "bytes": 25156
+      },
+      "promo": {
+        "url": "ohmcraft/promo-1.webp",
+        "sha256": "11120bfc82fb5dbce027bc316f5b6eb23141a895d484b9dc9951d64ed3989a09",
+        "bytes": 94122
+      },
+      "promoLandscape": {
+        "url": "ohmcraft/promo-landscape-1.webp",
+        "sha256": "1e189c587416cb9e51eacb7ea096ef38198f020b55cf1d6b6368f5c9e503cd2f",
+        "bytes": 83580
+      },
+      "text": {
+        "en": "Ohm's law, resistor codes, LED resistors and pinouts. Offline, with formulas.",
+        "de": "Ohmsches Gesetz, Widerstandscodes, LED und Pinbelegungen. Offline, mit Formeln.",
+        "es": "Ley de Ohm, códigos de resistencias, LED y distribución de pines, sin conexión.",
+        "fr": "Loi d'Ohm, codes de résistances, LED et brochages. Hors ligne, avec formules.",
+        "it": "Legge di Ohm, codici delle resistenze, LED e piedinature. Offline, con formule.",
+        "pt": "Lei de Ohm, códigos de resistores, LED e pinagens. Offline, com fórmulas.",
+        "nl": "Wet van Ohm, weerstandscodes, LED-weerstanden en aansluitingen. Offline.",
+        "ru": "Закон Ома, коды резисторов, резистор для светодиода, распиновки. Офлайн.",
+        "pl": "Prawo Ohma, kody rezystorów, rezystor do LED i wyprowadzenia. Działa offline.",
+        "tr": "Ohm yasası, direnç kodları, LED direnci ve pin dizilimi. Çevrimdışı, formüllü.",
+        "ar": "قانون أوم ورموز المقاومات ومقاوم LED وتوزيع الأطراف، دون اتصال ومع الصيغ.",
+        "hi": "ओम का नियम, रेज़िस्टर कोड, LED रेसिस्टर और पिनआउट। ऑफ़लाइन, फ़ॉर्मूलों के साथ।",
+        "id": "Hukum Ohm, kode resistor, resistor LED, pinout. Tanpa internet, dengan rumus.",
+        "vi": "Định luật Ohm, mã điện trở, điện trở LED và sơ đồ chân. Không cần mạng.",
+        "ja": "オームの法則、抵抗のカラーコード、LED用抵抗、ピン配置。オフラインで計算式つき。",
+        "ko": "옴의 법칙, 저항 코드, LED 저항, 핀 배치. 오프라인에서 공식과 함께.",
+        "zh-Hans": "欧姆定律、电阻色环与代码、LED 限流电阻和引脚图。离线可用，附带公式。",
+        "zh-Hant": "歐姆定律、電阻色碼與代碼、LED 限流電阻和腳位圖。離線可用，附上公式。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.pingdeck",
+      "name": "PingDeck: Network Tools",
+      "audience": "general",
+      "since": "2026-11-04",
+      "banner": {
+        "url": "pingdeck/banner-1.webp",
+        "sha256": "efa9071e6e900131ea9aebb6dc479938b58b80fbccce634ddb2537aab78df687",
+        "bytes": 19618
+      },
+      "promo": {
+        "url": "pingdeck/promo-1.webp",
+        "sha256": "f6b3bc063df972d862772b551492ac304df57ce9256ab6a60569c8372b1410f7",
+        "bytes": 81936
+      },
+      "promoLandscape": {
+        "url": "pingdeck/promo-landscape-1.webp",
+        "sha256": "c4069534fd4a2214cf35b7b5d9c2a68c8c04695cb23643312271f626b576d6cb",
+        "bytes": 71196
+      },
+      "text": {
+        "en": "Diagnose Wi-Fi, router, DNS and internet. Ping, traceroute, ports and devices.",
+        "de": "WLAN, Router, DNS und Internet prüfen. Ping, Traceroute, Ports und Geräte.",
+        "es": "Diagnostica tu Wi-Fi, router, DNS e internet. Ping, puertos y dispositivos.",
+        "fr": "Diagnostic Wi-Fi, routeur, DNS et Internet. Ping, traceroute, ports, appareils.",
+        "it": "Diagnosi di Wi-Fi, router, DNS e internet. Ping, porte e dispositivi.",
+        "pt": "Diagnostique Wi-Fi, roteador, DNS e internet. Ping, portas e dispositivos.",
+        "nl": "Controleer Wi-Fi, router, DNS en internet. Ping, poorten en apparaten.",
+        "ru": "Проверка Wi-Fi, роутера, DNS и интернета. Ping, traceroute, порты, устройства.",
+        "pl": "Diagnoza Wi-Fi, routera, DNS i internetu. Ping, traceroute, porty, urządzenia.",
+        "tr": "Wi-Fi, yönlendirici, DNS ve internet tanılama. Ping, portlar ve cihazlar.",
+        "ar": "شخّص Wi-Fi والراوتر وDNS والإنترنت. Ping وTraceroute والمنافذ والأجهزة.",
+        "hi": "Wi-Fi, राउटर, DNS और इंटरनेट की जाँच करें। Ping, traceroute, पोर्ट और डिवाइस।",
+        "id": "Diagnosis Wi-Fi, router, DNS, dan internet. Ping, traceroute, port, perangkat.",
+        "vi": "Chẩn đoán Wi-Fi, router, DNS và internet. Ping, traceroute, cổng, thiết bị.",
+        "ja": "Wi-Fi・ルーター・DNS・インターネットを診断。Ping、traceroute、ポート、デバイスも。",
+        "ko": "Wi-Fi, 공유기, DNS, 인터넷 진단. Ping, traceroute, 포트, 기기까지.",
+        "zh-Hans": "诊断 Wi-Fi、路由器、DNS 和互联网，还有 Ping、路由追踪、端口和设备。",
+        "zh-Hant": "診斷 Wi-Fi、路由器、DNS 和網際網路，還有 Ping、路由追蹤、連接埠和裝置。"
+      }
+    }
+  ]
+}
