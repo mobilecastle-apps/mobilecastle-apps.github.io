@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 1,
+  "version": 2,
   "policy": {
     "googleRewardedMinIntervalMinutes": 20,
     "promoSeconds": 10
@@ -291,6 +291,71 @@
         "ko": "Wi-Fi, 공유기, DNS, 인터넷 진단. Ping, traceroute, 포트, 기기까지.",
         "zh-Hans": "诊断 Wi-Fi、路由器、DNS 和互联网，还有 Ping、路由追踪、端口和设备。",
         "zh-Hant": "診斷 Wi-Fi、路由器、DNS 和網際網路，還有 Ping、路由追蹤、連接埠和裝置。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.measurecraft",
+      "name": "MeasureCraft: Measure Tools",
+      "audience": "general",
+      "since": "2026-11-10",
+      "banner": {
+        "url": "measurecraft/banner-1.webp",
+        "sha256": "b578b567ee3595ab63f7c6ef62475f9ec478fb1c165ee3ef6552b7d06221dd30",
+        "bytes": 23296
+      },
+      "promo": {
+        "url": "measurecraft/promo-1.webp",
+        "sha256": "5d17d2308700e999707ddd7f4bbb04bf9a864cc412ae2b156e02cea962fed041",
+        "bytes": 85556
+      },
+      "promoLandscape": {
+        "url": "measurecraft/promo-landscape-1.webp",
+        "sha256": "e515a34e9394684457871a2c6b7e559480ac812f1a1479c49edddb321f7d327a",
+        "bytes": 74666
+      },
+      "text": {
+        "en": "Ruler, level, angle, sound, light, compass and sensor measurements.",
+        "de": "Lineal, Wasserwaage, Winkel, Schall, Licht, Kompass und Sensormessungen.",
+        "es": "Regla, nivel, ángulo, sonido, luz, brújula y mediciones con sensores.",
+        "fr": "Règle, niveau, angle, son, lumière, boussole et mesures par capteurs.",
+        "it": "Righello, livella, angoli, suono, luce, bussola e misure con i sensori.",
+        "pt": "Régua, nível, ângulo, som, luz, bússola e medições com sensores.",
+        "nl": "Liniaal, waterpas, hoek, geluid, licht, kompas en sensormetingen.",
+        "ru": "Линейка, уровень, угол, звук, свет, компас и измерения датчиками.",
+        "pl": "Linijka, poziomica, kąt, dźwięk, światło, kompas i pomiary czujnikami.",
+        "tr": "Cetvel, su terazisi, açı, ses, ışık, pusula ve sensör ölçümleri.",
+        "ar": "مسطرة وميزان ماء وزوايا وصوت وضوء وبوصلة وقياسات بالمستشعرات.",
+        "hi": "रूलर, लेवल, कोण, ध्वनि, रोशनी, कम्पास और सेंसर से माप।",
+        "id": "Penggaris, waterpas, sudut, suara, cahaya, kompas, dan pengukuran sensor.",
+        "vi": "Thước, thước thủy, góc, âm thanh, ánh sáng, la bàn và đo bằng cảm biến.",
+        "ja": "定規、水準器、角度、音、光、コンパスなど、センサーで測定。",
+        "ko": "자, 수평계, 각도, 소리, 빛, 나침반 등 센서로 측정합니다.",
+        "zh-Hans": "尺子、水平仪、角度、声音、光照、指南针及各类传感器测量。",
+        "zh-Hant": "直尺、水平儀、角度、聲音、光照、指南針及各類感應器測量。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.paintilo",
+      "name": "Paintilo: Colour and Draw",
+      "audience": "children",
+      "since": "2026-11-10",
+      "banner": {
+        "url": "paintilo/banner-1.webp",
+        "sha256": "358fa5eb28cbb4677a905ee0811357d1d51dbc4147ed1ce554497853c0063574",
+        "bytes": 34640
+      },
+      "promo": {
+        "url": "paintilo/promo-1.webp",
+        "sha256": "700e1efb77374c98fe3675994808f53577f657364df0606d0d5fc27e6c87a32e",
+        "bytes": 100906
+      },
+      "promoLandscape": {
+        "url": "paintilo/promo-landscape-1.webp",
+        "sha256": "99e4bd42d81fba6244b3a5a9abf23386db85724296b39b145bc459831e7874d2",
+        "bytes": 91494
+      },
+      "text": {
+        "en": "Colour pictures by tapping, draw step by step, and keep them in a gallery."
       }
     }
   ]
