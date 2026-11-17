@@ -200,7 +200,7 @@
 <h1 id="privacy-policy-for-pingdeck">Privacy Policy for PingDeck</h1>
 <p><strong>App:</strong> PingDeck: Network Tools <strong>Package
 name:</strong> com.mobilecastle.pingdeck <strong>Publisher:</strong>
-Mobile Castle <strong>Effective date:</strong> 28 October 2026</p>
+Mobile Castle <strong>Effective date:</strong> 5 November 2026</p>
 <p>This Privacy Policy explains what information the PingDeck app
 (“PingDeck”, “the app”, “we”, “us”) does and does not handle, and how.
 Please read it together with the policies of the third parties named
@@ -228,13 +228,17 @@ reads your position, and never stores or sends your location. It asks
 for no camera, microphone, contacts, storage, phone or SMS
 permission.</li>
 <li>PingDeck shows ads through <strong>Google AdMob</strong>, a third
-party. To serve ads, AdMob may collect device information and an
-advertising identifier. Ads never receive your results, addresses, host
-names or network names.</li>
-<li><strong>No purchases in this version.</strong> PingDeck offers
-nothing to buy: it does not connect to Google Play Billing, and it does
-not ask for the billing permission. Premium features are coming
-soon.</li>
+party, on the free tier. To serve ads, AdMob may collect device
+information and an advertising identifier. Ads never receive your
+results, addresses, host names or network names. Buying the one-time
+<strong>PingDeck Pro</strong> upgrade removes ads, and for Pro users the
+ads software is not started at all.</li>
+<li>Purchases are handled by <strong>Google Play Billing</strong>. The
+app never sees your card or bank details.</li>
+<li>On the free tier the app also shows <strong>Mobile Castle’s own
+promotions</strong> of its other apps. To have them ready, it downloads
+a catalogue of those apps and their pictures from
+mobilecastle-apps.github.io; no personal data is sent.</li>
 </ul>
 <p>The rest of this policy gives the detail behind that summary.</p>
 <hr />
@@ -325,8 +329,20 @@ scans, tests and lookups. They can contain what you entered (host names
 and addresses), addresses on your local network, the names of Wi-Fi
 networks and access points seen in a scan, and names that devices
 announced. They are saved in a database in the app’s own private
-storage. This version shows the newest 10 results; older ones stay on
-the device and are never deleted on their own.</li>
+storage. On the free tier the newest 10 results are shown; older ones
+stay on the device and are never deleted on their own.</li>
+<li><strong>Saved hosts, device names and Wake-on-LAN devices</strong>
+(Pro): the names and addresses you save as quick targets, the names you
+give to devices found on a network (kept per network, identified by its
+network name, router address and subnet, so newcomers can be marked
+<em>New</em>), and the computers you save for Wake-on-LAN (a name, a MAC
+address and a broadcast address).</li>
+<li><strong>Your Pro purchase record</strong>: Google Play’s last answer
+about whether you own PingDeck Pro, so Pro keeps working offline. It is
+sealed with a key in the app combined with Android’s app-specific device
+ID, so a copied or edited record is not accepted. The device ID is used
+only for that seal: it is not stored, not sent anywhere, and it is not
+the advertising identifier.</li>
 <li><strong>Your preferences</strong>: for example theme, language,
 Expert mode, the speed-test switch, favourite tools and recently used
 targets.</li>
@@ -340,19 +356,25 @@ device, to help troubleshoot problems on real hardware. It never
 contains network names, access-point identifiers, IP addresses, host
 names, ports, DNS answers or device names, and it stays on your device
 unless you deliberately share it.</li>
+<li><strong>Mobile Castle’s catalogue</strong>: the list of Mobile
+Castle’s apps and their pictures, downloaded for the promotions
+described below. It holds nothing about you.</li>
 </ul>
 <p>All of it is removed when you uninstall PingDeck. <strong>Settings →
 Delete history</strong> removes your saved results, and <strong>Clear
-all local data</strong> removes history and settings. See <strong>Data
-retention and deletion</strong> below.</p>
+all local data</strong> removes history, saved hosts, device names,
+Wake-on-LAN devices and settings. See <strong>Data retention and
+deletion</strong> below.</p>
 <hr />
 <h2 id="advertising-google-admob">Advertising (Google AdMob)</h2>
 <p>PingDeck is free and supported by ads served through <strong>Google
-AdMob</strong>, a Google service. Ads appear as banners on the dashboard
-(the Diagnose tab), the tool list, History, the subnet calculator and
-finished results, never while a diagnosis, scan, test or lookup is
-running and never while Android’s permission prompt is shown. There are
-no full-screen ads when you open the app or move between screens.</p>
+AdMob</strong>, a Google service. Ads appear only while you are on the
+free tier, as banners on the dashboard (the Diagnose tab), the tool
+list, History, the subnet calculator and finished results, never while a
+diagnosis, scan, test or lookup is running and never while Android’s
+permission prompt is shown. There are no full-screen ads when you open
+the app or move between screens. The <strong>PingDeck Pro</strong>
+one-time purchase removes ads.</p>
 <p>The ad requests PingDeck sends carry no content from the app: no
 result, address, host name, network name or report is ever passed to
 AdMob. To select and show ads, Google AdMob (and the Google Mobile Ads
@@ -375,10 +397,11 @@ required by law (for example, for users in the European Economic Area,
 the UK and Switzerland), PingDeck uses Google’s User Messaging Platform
 to show a consent form before serving personalised ads, and no ad is
 requested until that choice is made; you can change your choice at any
-time in <strong>Settings → Privacy options</strong>. You may also choose
-to watch a short rewarded ad to export one report, or to run one port
-scan of up to 1,024 ports; this is optional, and the app says what the
-ad unlocks before it plays.</p>
+time in <strong>Settings → Privacy options</strong>. If you own PingDeck
+Pro, neither the consent form nor the Google Mobile Ads SDK is started.
+On the free tier you may also choose to watch a short rewarded ad to
+export one report, or to run one port scan of up to 1,024 ports; this is
+optional, and the app says what the ad unlocks before it plays.</p>
 <ul>
 <li>Google Privacy Policy: <a href="https://policies.google.com/privacy"
 class="uri">https://policies.google.com/privacy</a></li>
@@ -394,13 +417,59 @@ class="uri">https://support.google.com/admob/answer/6128543</a></li>
 your device settings (<strong>Settings → Google → Ads</strong> on most
 Android phones).</p>
 <hr />
-<h2 id="purchases">Purchases</h2>
-<p>This version of PingDeck <strong>offers no in-app purchases</strong>.
-It does not connect to Google Play Billing, it asks for no billing
-permission, and no part of the app can start a payment. Some features
-are marked for a future Premium version; they show “Premium features are
-coming soon.” If purchases are added in a later version, this policy
-will be updated before that version is released.</p>
+<h2 id="mobile-castles-own-promotions">Mobile Castle’s own
+promotions</h2>
+<p>On the free tier, PingDeck also shows promotions for <strong>Mobile
+Castle’s other apps</strong>: a banner where a Google ad cannot be
+shown, and, if you choose to watch one, a short full-screen promotion in
+place of a rewarded ad; it unlocks the same report export or port scan
+when it has played to the end. Settings also has a <strong>More apps
+from Mobile Castle</strong> row, for everyone, which opens Mobile
+Castle’s page on Google Play. Tapping a promotion opens that app’s page
+on Google Play.</p>
+<p>To have these promotions ready, offline too, the app downloads a
+catalogue of Mobile Castle’s apps and their pictures from Mobile
+Castle’s website, <code>https://mobilecastle-apps.github.io</code>, when
+it starts and when you return to it. No personal data is sent: nothing
+about you, your device, your networks or your results goes with the
+request. The site is hosted by GitHub Pages, which, like any web server,
+sees your device’s IP address when it delivers the files (GitHub’s
+privacy statement: <a
+href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+class="uri">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a>).
+The catalogue and pictures are kept in the app’s own storage and removed
+when you uninstall PingDeck.</p>
+<p>Promotions are not personalised. To leave out an app you already
+have, PingDeck checks on your device which Mobile Castle apps are
+installed; that check never leaves your device. If you own PingDeck Pro,
+no promotion is shown and no pictures are downloaded for one; the More
+apps row stays.</p>
+<hr />
+<h2 id="purchases-google-play-billing">Purchases (Google Play
+Billing)</h2>
+<p>The one-time <strong>PingDeck Pro</strong> upgrade (which removes ads
+and unlocks the full history, the advanced Wi-Fi graphs, port scan
+presets and larger scans, TLS details, saved hosts and networks,
+exportable reports, the advanced subnet tools and custom colour themes)
+is sold and processed through <strong>Google Play Billing</strong>. When
+you buy PingDeck Pro:</p>
+<ul>
+<li>Google handles the payment. PingDeck never receives or stores your
+payment card or bank details.</li>
+<li>The app only learns whether you own the PingDeck Pro entitlement, so
+it can unlock the features and stop showing ads. It checks this with
+Google Play quietly in the background; Pro keeps working when you are
+offline.</li>
+</ul>
+<p>Your purchase is governed by Google Play’s terms and privacy
+policy:</p>
+<ul>
+<li>Google Play Terms of Service: <a
+href="https://play.google.com/about/play-terms/"
+class="uri">https://play.google.com/about/play-terms/</a></li>
+<li>Google Privacy Policy: <a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></li>
+</ul>
 <hr />
 <h2 id="app-permissions-and-why-they-are-needed">App permissions and why
 they are needed</h2>
@@ -418,7 +487,8 @@ no background location.</li>
 <code>CHANGE_WIFI_STATE</code>): to read the connected Wi-Fi’s details
 and to request a fresh Wi-Fi scan.</li>
 <li><strong>Internet</strong> (<code>INTERNET</code>): for the network
-tools and to load ads.</li>
+tools, to load ads, to reach Google Play for the Pro purchase, and to
+download Mobile Castle’s catalogue for its promotions.</li>
 <li><strong>Network state</strong> (<code>ACCESS_NETWORK_STATE</code>):
 to read the connection, its addresses, router and DNS servers.</li>
 <li><strong>Added by the Google libraries</strong>: the advertising ID
@@ -428,7 +498,9 @@ and Android’s privacy-preserving ad APIs (<code>AD_ID</code>,
 <code>ACCESS_ADSERVICES_TOPICS</code>) for ads; and background-work
 permissions (<code>WAKE_LOCK</code>,
 <code>RECEIVE_BOOT_COMPLETED</code>, <code>FOREGROUND_SERVICE</code>)
-that the Google libraries use for their own short tasks.</li>
+that the Google libraries use for their own short tasks. Google Play
+purchases (<code>com.android.vending.BILLING</code>), added by the Play
+Billing library.</li>
 </ul>
 <p>PingDeck asks for no camera, microphone, contacts, storage, phone,
 SMS, Bluetooth or background-location permission.</p>
@@ -452,7 +524,7 @@ information is governed by their own privacy policies:</p>
 <tbody>
 <tr>
 <td><strong>Google AdMob / Google Mobile Ads</strong></td>
-<td>Showing ads</td>
+<td>Showing ads on the free tier</td>
 <td><a href="https://policies.google.com/privacy"
 class="uri">https://policies.google.com/privacy</a> and <a
 href="https://support.google.com/admob/answer/6128543"
@@ -463,6 +535,20 @@ class="uri">https://support.google.com/admob/answer/6128543</a></td>
 <td>Asking for ad consent where the law requires it</td>
 <td><a href="https://policies.google.com/privacy"
 class="uri">https://policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>Google Play Billing</strong></td>
+<td>Processing the PingDeck Pro purchase</td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>GitHub Pages</strong> (hosts Mobile Castle’s website)</td>
+<td>Delivering the catalogue of Mobile Castle’s apps and their
+pictures</td>
+<td><a
+href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+class="uri">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a></td>
 </tr>
 <tr>
 <td><strong>Cloudflare, Google Public DNS, Quad9, IANA and the RDAP
@@ -489,18 +575,26 @@ app in a way that raises a concern, please contact us using the details
 below.</p>
 <hr />
 <h2 id="data-retention-and-deletion">Data retention and deletion</h2>
-<p>Data stored locally by PingDeck (history, recent targets,
-preferences, exported reports and the diagnostic log) <strong>stays on
-your device</strong> and is retained until you remove it. PingDeck never
+<p>Data stored locally by PingDeck (history, saved hosts, device names,
+Wake-on-LAN devices, recent targets, preferences, the Pro purchase
+record, exported reports and the diagnostic log) <strong>stays on your
+device</strong> and is retained until you remove it. PingDeck never
 deletes your history on its own.</p>
 <p>You can delete this data at any time by:</p>
 <ul>
 <li><strong>uninstalling the app</strong>, which removes all of its
 local storage, or</li>
 <li>using <strong>Settings → Delete history</strong> (saved results) or
-<strong>Clear all local data</strong> (history and settings), or
-deleting a single result from History.</li>
+<strong>Clear all local data</strong> (history, saved hosts, device
+names, Wake-on-LAN devices and settings), or deleting a single result
+from History.</li>
 </ul>
+<p><strong>Clear all local data</strong> keeps the stored Pro record, so
+it does not remove PingDeck Pro: Pro is a purchase, not local data to
+wipe. Uninstalling removes the record, but not PingDeck Pro itself: the
+purchase belongs to your Google Play account, and Pro comes back the
+next time Google Play answers (or with <strong>Restore
+purchase</strong>).</p>
 <p>Mobile Castle does not hold a copy of this data, so there is no
 separate server-side deletion request to make to us.</p>
 <p>For data processed by the third parties above (for example Google’s
