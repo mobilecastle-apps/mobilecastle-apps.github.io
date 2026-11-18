@@ -199,8 +199,10 @@
 </header>
 <h1 id="privacy-policy-for-castora">Privacy Policy for Castora</h1>
 <p><strong>App:</strong> Castora <strong>Package name:</strong>
-com.mobilecastle.castora <strong>Publisher:</strong> MobileCastle
-(Mobile Castle) <strong>Effective date:</strong> 6 October 2026</p>
+com.mobilecastle.castora <strong>Publisher:</strong> Mobile Castle
+<strong>Effective date:</strong> 18 November 2026</p>
+<p>This policy is for Castora as published on Google Play, which offers
+the optional one-time <strong>Castora Pro</strong> purchase.</p>
 <p>This Privacy Policy explains what information the Castora app
 ("Castora", "the app", "we", "us") does and does not handle, and how.
 Please read it together with the policies of the third parties named
@@ -214,18 +216,31 @@ not ask for your name, email, phone number, or any similar personal
 detail.</li>
 <li><strong>Your videos, music and photos never leave your device or
 your local network.</strong> When you cast, the app streams them
-directly from your phone to the TV/streaming device you choose over your
-own Wi‑Fi. Nothing is uploaded to MobileCastle's servers — MobileCastle
-does not operate any content server for your media.</li>
+directly from your phone to the TV or streaming device you choose, over
+your own Wi‑Fi. Nothing is uploaded to Mobile Castle: Mobile Castle does
+not operate any content server for your media.</li>
 <li>If you use the <strong>IPTV</strong> feature, the login details or
 playlist you enter are <strong>stored only on your device</strong> and
 are sent <strong>only to the IPTV provider you chose</strong>, so the
-app can play your streams. They are never sent to MobileCastle.</li>
-<li>Castora shows ads through <strong>Google AdMob</strong>, a third
-party. To serve ads, AdMob may collect device information and an
-advertising identifier. Buying the one-time <strong>Castora Pro</strong>
-upgrade removes ads — and for Pro users the ads software is not started
-at all.</li>
+app can play your streams. They are never sent to Mobile Castle. If your
+provider's server does not answer as it should, the app asks Google's
+connectivity check whether your internet works, to tell you which of the
+two is the problem; that request sends nothing about you.</li>
+<li><strong>Castora deletes a video from your device only when you ask
+it to</strong>, by ticking <em>Also delete from this device</em>. For a
+video another app saved, Android asks for your consent (on Android 10
+and earlier, once, as its storage permission). Nothing about it leaves
+your device.</li>
+<li>On phones, Castora shows ads through <strong>Google AdMob</strong>,
+a third party, on the free tier. To serve ads, AdMob may collect device
+information and an advertising identifier. Buying the one-time
+<strong>Castora Pro</strong> upgrade removes ads, and for Pro users the
+ads software is not started at all. Castora shows no ads on Android
+TV.</li>
+<li>On the free tier, the phone app also shows <strong>Mobile Castle's
+own promotions</strong> of its other apps. To have them ready, it
+downloads a catalogue of those apps and their pictures from
+mobilecastle-apps.github.io; no personal data is sent.</li>
 <li>Purchases are handled by <strong>Google Play Billing</strong>. The
 app never sees your card or bank details.</li>
 </ul>
@@ -234,7 +249,7 @@ app never sees your card or bank details.</li>
 <h2 id="information-castora-itself-collects">Information Castora itself
 collects</h2>
 <p><strong>Castora does not collect personal data on its own servers,
-because MobileCastle does not run a server that receives your
+because Mobile Castle does not run a server that receives your
 data.</strong> Specifically:</p>
 <ul>
 <li><strong>No account / identity data.</strong> There is no login, so
@@ -245,81 +260,188 @@ you cast, and IPTV streams you play or record, are not copied to
 us.</li>
 <li><strong>No analytics SDK operated by us.</strong> Castora does not
 embed our own analytics or tracking service. (Google AdMob and the
-Google Play services described below are independent third parties with
-their own data handling.)</li>
+Google services described below are independent third parties with their
+own data handling.)</li>
 </ul>
-<h3 id="data-that-stays-on-your-device">Data that stays on your
-device</h3>
-<p>Some information is stored <strong>locally on your phone</strong> so
+<hr />
+<h2 id="data-that-stays-on-your-device">Data that stays on your
+device</h2>
+<p>Some information is stored <strong>locally on your device</strong> so
 the app can work and remember your settings. This data is not
-transmitted to MobileCastle. It includes:</p>
+transmitted to Mobile Castle. It includes:</p>
 <ul>
-<li><strong>IPTV sources you add</strong> — for an Xtream login: the
-server URL, username, and password; for a playlist: the M3U URL or the
+<li><strong>IPTV sources you add</strong>: for an Xtream login, the
+server URL, username, and password; for a playlist, the M3U URL or the
 path to a local playlist file. These are saved in the app's local
 settings storage (Android <code>SharedPreferences</code>) and, for large
 catalogs, a cache file inside the app's own private storage. They are
 used only to fetch and play your streams, and are sent only to the IPTV
 provider you entered.</li>
-<li><strong>Your preferences and library state</strong> — for example
-favourites, the last tab you had open, sort order, and watch
-progress.</li>
+<li><strong>Your preferences and library state</strong>, for example
+favourites, playlists, Continue watching, the last tab you had open,
+sort order, and watch progress.</li>
 <li><strong>Downloaded and recorded videos</strong> (IPTV downloads and
-live-channel recordings) — saved on the device in the
+live-channel recordings), saved on the device in the
 <code>Movies/Castora</code> folder, where you can also see, play and
 delete them with other apps.</li>
-<li><strong>A local diagnostic log</strong> — Castora can write a
+<li><strong>Your Castora Pro status.</strong> Castora keeps a record of
+whether you own Castora Pro, so Pro works without an internet
+connection. The record is sealed to your device with Android's
+app-specific device ID, so a copied or edited record is not accepted;
+the ID is used only for that check on the device and is never stored in
+the record or sent anywhere.</li>
+<li><strong>Mobile Castle's catalogue</strong>: the list of Mobile
+Castle's apps and their pictures, downloaded for the promotions
+described below. It holds nothing about you.</li>
+<li><strong>A local diagnostic log.</strong> Castora can write a
 technical casting log to a file in the app's own storage to help
 troubleshoot casting problems on real hardware. This log stays on your
 device unless you deliberately share it, and the app is designed to keep
 sensitive values (such as IPTV credentials) out of it.</li>
 </ul>
-<p>The settings, sources, caches and log live in the app's private
-storage: they are removed when you uninstall Castora, or when you use
-the app's in-app actions to remove a source or clear a cache. Downloads
-and recordings in <code>Movies/Castora</code> are your files: they stay
-until you delete them (in the app, or with any file manager), including
-after an uninstall. See <strong>Data retention and deletion</strong>
-below.</p>
+<p>The settings, sources, caches, catalogue and log live in the app's
+private storage: they are removed when you uninstall Castora, or when
+you use the app's in-app actions to remove a source or clear a cache.
+Downloads and recordings in <code>Movies/Castora</code> are your files:
+they stay until you delete them (in the app, or with any file manager),
+including after an uninstall. See <strong>Data retention and
+deletion</strong> below.</p>
+<hr />
+<h2 id="deleting-videos-from-your-device">Deleting videos from your
+device</h2>
+<p>When you remove a video from a playlist or from <em>Continue
+watching</em>, or delete a whole playlist, Castora offers a box,
+<em>Also delete from this device</em>. It is never ticked for you. Only
+when you tick it does Castora delete the video file itself from your
+device, not just the entry in the app:</p>
+<ul>
+<li><strong>Castora's own files</strong> (its downloads and recordings)
+are deleted directly.</li>
+<li><strong>A video another app saved</strong> is deleted through
+Android: on Android 11 and later, Android shows its own dialog and
+deletes the video only if you allow it. On Android 10 and earlier,
+Castora first asks for Android's storage permission if it does not have
+it yet (see <code>WRITE_EXTERNAL_STORAGE</code> below), and Android 10
+may also ask you to confirm the deletion.</li>
+<li>Castora never deletes the video that is playing or the one that
+plays next, and it never deletes anything on its own.</li>
+</ul>
+<p>Deleting happens on your device only. Nothing about the video, or
+about what you delete, is sent to Mobile Castle or anyone else.</p>
 <hr />
 <h2 id="advertising-google-admob">Advertising (Google AdMob)</h2>
 <p>Castora is free and supported by ads served through <strong>Google
-AdMob</strong>, a Google service. Ads appear only while you are on the
-free tier; the <strong>Castora Pro</strong> one-time purchase removes
-ads.</p>
+AdMob</strong>, a Google service. Ads appear only on phones and tablets,
+and only while you are on the free tier; the <strong>Castora
+Pro</strong> one-time purchase removes ads. Castora does not start the
+ads software on Android TV.</p>
 <p>To select and show ads, Google AdMob (and the Google Mobile Ads SDK
 included in the app) may collect and process information such as:</p>
 <ul>
-<li>a device <strong>advertising identifier</strong> (Android
-Advertising ID),</li>
-<li><strong>device and network information</strong> (for example device
-type, operating-system version, general/coarse location inferred from
-your IP address, and similar technical data),</li>
-<li><strong>ad-interaction and app-usage data</strong> related to the
-ads shown,</li>
-<li><strong>crash and diagnostic information</strong> about the ads
+<li>a <strong>device advertising identifier</strong> (Android
+Advertising ID), and similar device identifiers;</li>
+<li>your <strong>IP address</strong>, from which Google infers your
+<strong>approximate location</strong>, together with device and network
+information (for example device type and operating-system version);</li>
+<li><strong>app interactions</strong> related to the ads shown (for
+example app launches, taps and ad views);</li>
+<li><strong>crash logs and diagnostic information</strong> about the ads
 software itself.</li>
 </ul>
-<p>Google uses this information to serve and measure ads and to help
-prevent fraud and abuse, in accordance with Google's own policies. Where
-required by law (for example, for users in the European Economic Area),
-Castora uses Google's User Messaging Platform to show a consent form
-before serving personalised ads. If you own Castora Pro, neither the
-consent form nor the Google Mobile Ads SDK is started. On the free tier
-you may also choose to watch a short rewarded ad for two ad-free hours;
-this is optional.</p>
+<p>Google uses this information to serve and measure ads, for analytics,
+and to help prevent fraud and abuse, in accordance with Google's own
+policies. These are the data types Castora declares in the <strong>Data
+safety</strong> section of its Google Play listing. Ads never receive
+your videos, music, photos, IPTV details or watch history.</p>
+<p>Where required by law (for example, for users in the European
+Economic Area), Castora uses Google's User Messaging Platform to show a
+consent form before serving personalised ads. If you own Castora Pro,
+neither the consent form nor the Google Mobile Ads SDK is started. On
+the free tier you may also choose to watch a short rewarded ad, for
+example for two ad-free hours or to fix a video's sound; this is always
+optional.</p>
 <ul>
-<li><strong>Google Privacy Policy:</strong> <a
-href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li><strong>How Google uses information from sites or apps that use its
-services:</strong> <a
-href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
-<li><strong>AdMob / Google Ads policies:</strong> <a
-href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a></li>
+<li>Google Privacy Policy: <a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></li>
+<li>How Google uses information from sites or apps that use its
+services: <a
+href="https://policies.google.com/technologies/partner-sites"
+class="uri">https://policies.google.com/technologies/partner-sites</a></li>
+<li>AdMob / Google Ads policies: <a
+href="https://support.google.com/admob/answer/6128543"
+class="uri">https://support.google.com/admob/answer/6128543</a></li>
 </ul>
 <p>You can limit ad personalisation and reset your advertising ID in
-your device settings (<strong>Settings → Google → Ads</strong> on most
-Android phones).</p>
+your device settings (Settings → Google → Ads, or Settings → Security
+&amp; privacy → Ads, depending on your phone).</p>
+<hr />
+<h2 id="mobile-castles-own-promotions-and-more-apps">Mobile Castle's own
+promotions and More apps</h2>
+<p>On the free tier, Castora's phone app also shows promotions for
+<strong>Mobile Castle's other apps</strong>: a banner where a Google ad
+cannot be shown, and, when you choose to watch an ad, sometimes a short
+full-screen Mobile Castle promotion in place of Google's, for example
+when Google has none for you; it gives the same reward once it has
+played to the end, never for closing it early or for installing
+anything. Each promotion is marked "Mobile Castle". Tapping one opens
+that app's page on Google Play; the link tells Google Play only that the
+visit came from a promotion in Castora, nothing about you.</p>
+<p>The phone app's Settings also has a <strong>More apps from Mobile
+Castle</strong> row, for everyone, which opens Mobile Castle's developer
+page on Google Play. On Android TV, Settings shows the same page as a QR
+code, drawn by the app itself; nothing is downloaded for it.</p>
+<p>To have the promotions ready, offline too, the phone app downloads a
+catalogue of Mobile Castle's apps from Mobile Castle's website,
+<code>https://mobilecastle-apps.github.io/promos.json</code>, and the
+pictures it names from
+<code>https://mobilecastle-apps.github.io/promos/</code>. It checks the
+catalogue at most once a day, when the app starts or when you return to
+it, over a secure (https) connection, and downloads only what has
+changed.</p>
+<ul>
+<li><strong>No personal data is sent.</strong> The request carries no
+identifier, account, setting or usage data, and nothing about your
+videos or IPTV sources. Like any web request, it reaches the site with
+your device's IP address and the standard technical details Android adds
+to every request (such as the Android version and device model). The
+site is hosted by GitHub Pages, which, like any web server, sees these
+when it delivers the files (GitHub's privacy statement: <a
+href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+class="uri">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a>).
+Mobile Castle receives no record of these requests.</li>
+<li>The catalogue and pictures are kept in the app's own storage and
+removed when you uninstall Castora.</li>
+<li>Promotions are not personalised. To leave out an app you already
+have, Castora checks on your device which Mobile Castle apps are
+installed; that check never leaves your device.</li>
+<li><strong>If you own Castora Pro, no promotion is shown and no
+pictures are downloaded for one.</strong> The app still checks the small
+catalogue file once a day; the More apps row stays.</li>
+</ul>
+<hr />
+<h2 id="when-your-iptv-server-does-not-answer">When your IPTV server
+does not answer</h2>
+<p>When Castora cannot reach your IPTV provider's server, or the server
+answers with something that is not an IPTV catalogue, the app checks
+whether your internet connection itself works, so it can tell you
+whether to check your connection or to ask your provider for the
+server's current address. For this it asks Google's connectivity check,
+<code>http://connectivitycheck.gstatic.com/generate_204</code>, the same
+address Android itself uses for this check, and looks only at whether
+Google sends back its empty answer.</p>
+<ul>
+<li>It happens only after a request to your IPTV server has failed,
+never in the background and never for anything else.</li>
+<li><strong>No personal data is sent.</strong> The request carries no
+identifier, account, setting or usage data, and nothing about your
+videos or IPTV sources; it does not name your provider. Like any web
+request, it reaches Google with your device's IP address and the
+standard technical details Android adds to every request. Google's
+privacy policy: <a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></li>
+<li>Nothing about it is stored, and Mobile Castle receives no record of
+it.</li>
+</ul>
 <hr />
 <h2 id="purchases-google-play-billing">Purchases (Google Play
 Billing)</h2>
@@ -327,83 +449,115 @@ Billing)</h2>
 premium features and removes ads) is sold and processed through
 <strong>Google Play Billing</strong>. When you buy Castora Pro:</p>
 <ul>
-<li>Google handles the payment. <strong>Castora never receives or stores
-your payment card or bank details.</strong></li>
+<li>Google handles the payment. Castora never receives or stores your
+payment card or bank details.</li>
 <li>The app only learns whether you own the Castora Pro entitlement, so
-it can unlock the features and stop showing ads.</li>
+it can unlock the features and stop showing ads. It asks Google Play
+again when it starts and when you return to it, so a refund is
+reflected; if Google Play cannot be reached, nothing changes and Pro
+keeps working offline.</li>
 </ul>
 <p>Your purchase is governed by Google Play's terms and privacy
 policy:</p>
 <ul>
-<li><strong>Google Play Terms of Service:</strong> <a
-href="https://play.google.com/about/play-terms/">https://play.google.com/about/play-terms/</a></li>
-<li><strong>Google Privacy Policy:</strong> <a
-href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Google Play Terms of Service: <a
+href="https://play.google.com/about/play-terms/"
+class="uri">https://play.google.com/about/play-terms/</a></li>
+<li>Google Privacy Policy: <a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></li>
 </ul>
 <hr />
 <h2 id="casting-and-local-streaming-google-cast-dlna-roku">Casting and
 local streaming (Google Cast, DLNA, Roku)</h2>
 <p>Castora casts your local videos, music, photos and IPTV streams to a
-TV or streaming device on <strong>your own local network</strong>. To do
+TV or streaming device <strong>on your own local network</strong>. To do
 this the app:</p>
 <ul>
 <li>discovers compatible devices on your Wi‑Fi (Google Cast / Chromecast
 and Android TV, DLNA renderers, and Roku devices),</li>
-<li>runs a small local media server on your phone and sends the chosen
-device a <strong>local-network URL</strong> (using your phone's Wi‑Fi IP
+<li>runs a small <strong>local media server</strong> on your phone and
+sends the chosen device a local-network URL (using your phone's Wi‑Fi IP
 address) so it can fetch the file directly from your phone.</li>
 </ul>
 <p>Music and photos are chosen with Android's own system picker, so
 Castora needs no permission to read your music or photo library; it only
-receives the files you pick. The content is streamed
-<strong>device-to-device over your LAN</strong>. It is not routed through, or stored on, any MobileCastle
-server. Castora uses Google's built-in Cast receiver and does not run a
-custom cloud receiver for your content.</p>
+receives the files you pick. The content is streamed device-to-device
+over your LAN. It is <strong>not</strong> routed through, or stored on,
+any Mobile Castle server. Castora uses Google's built-in Cast receiver
+and does not run a custom cloud receiver for your content.</p>
 <p>The Google Cast SDK is a Google component; its use of information is
 covered by Google's privacy policy: <a
-href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></p>
 <hr />
 <h2 id="app-permissions-and-why-they-are-needed">App permissions and why
 they are needed</h2>
 <p>Castora requests the following Android permissions. Each is used only
 for the feature described:</p>
 <ul>
-<li><strong>Internet (<code>INTERNET</code>)</strong> — to run the local
+<li><strong>Internet</strong> (<code>INTERNET</code>): to run the local
 media server, discover cast devices, fetch and stream your IPTV content
-from your provider, and load ads.</li>
-<li><strong>Network state (<code>ACCESS_NETWORK_STATE</code>)</strong> —
+from your provider, load ads, reach Google Play for the Pro purchase,
+download Mobile Castle's catalogue for its promotions, and check whether
+your internet works when an IPTV server does not answer.</li>
+<li><strong>Network state</strong> (<code>ACCESS_NETWORK_STATE</code>):
 to check whether you are connected and adapt behaviour (for example when
 a connection drops).</li>
-<li><strong>Wi‑Fi state (<code>ACCESS_WIFI_STATE</code>)</strong> — to
+<li><strong>Wi‑Fi state</strong> (<code>ACCESS_WIFI_STATE</code>): to
 determine your phone's Wi‑Fi IP address so the cast device can reach the
 local media server.</li>
-<li><strong>Keep awake (<code>WAKE_LOCK</code>)</strong> — to keep the
+<li><strong>Wi‑Fi multicast</strong>
+(<code>CHANGE_WIFI_MULTICAST_STATE</code>): while a TV plays a video
+from your phone, to let the TV's announcements through with the screen
+off, so a dropped cast can find the TV again.</li>
+<li><strong>Keep awake</strong> (<code>WAKE_LOCK</code>): to keep the
 phone from sleeping while it is actively casting, so playback isn't
 interrupted.</li>
-<li><strong>Foreground service (<code>FOREGROUND_SERVICE</code>,
-<code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>)</strong> — to keep the
-media server and cast session alive while the app is in the background
-during playback.</li>
-<li><strong>Foreground service — data sync
-(<code>FOREGROUND_SERVICE_DATA_SYNC</code>)</strong> — to let a long
-IPTV download, or a live-channel recording you started, continue if you
-leave the app.</li>
-<li><strong>Notifications (<code>POST_NOTIFICATIONS</code>)</strong> —
-on Android 13+, to show the ongoing notification required while a
-casting session or download runs in the background.</li>
-<li><strong>Read video (<code>READ_MEDIA_VIDEO</code> on Android 13+,
-<code>READ_EXTERNAL_STORAGE</code> on Android 12 and below)</strong> —
-to let you pick local video files from your device to cast. Castora
-reads the videos you choose; it does not upload them.</li>
-<li><strong>Write storage (<code>WRITE_EXTERNAL_STORAGE</code>, Android 9
-and below only)</strong> — to save your downloads and recordings into
-<code>Movies/Castora</code> on those older Android versions.</li>
+<li><strong>Foreground service</strong>
+(<code>FOREGROUND_SERVICE</code>,
+<code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>): to keep the media
+server and cast session alive while the app is in the background during
+playback.</li>
+<li><strong>Foreground service, data sync</strong>
+(<code>FOREGROUND_SERVICE_DATA_SYNC</code>): to let a long IPTV
+download, or a live-channel recording you started, continue if you leave
+the app.</li>
+<li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>): on
+Android 13+, to show the ongoing notification required while a casting
+session or download runs in the background.</li>
+<li><strong>Read video</strong> (<code>READ_MEDIA_VIDEO</code> on
+Android 13+, <code>READ_EXTERNAL_STORAGE</code> on Android 12 and
+below): to let you pick local video files from your device to cast.
+Castora reads the videos you choose; it does not upload them. When you
+tick <em>Also delete from this device</em>, Castora deletes that video
+from your device as described in <strong>Deleting videos from your
+device</strong>.</li>
+<li><strong>Write storage</strong> (<code>WRITE_EXTERNAL_STORAGE</code>,
+<strong>Android 10 and below only</strong>; Android 11 and later never
+give it to Castora): on Android 9 and below, to save your downloads and
+recordings into <code>Movies/Castora</code>; on Android 10 and below, to
+delete a video another app saved, only when you ask Castora to delete
+it.</li>
+<li><strong>Added by the Google libraries</strong>: the advertising ID
+and Android's privacy-preserving ad APIs (<code>AD_ID</code>,
+<code>ACCESS_ADSERVICES_AD_ID</code>,
+<code>ACCESS_ADSERVICES_ATTRIBUTION</code>,
+<code>ACCESS_ADSERVICES_TOPICS</code>) for ads, and Google Play
+purchases (<code>com.android.vending.BILLING</code>) for the Pro
+purchase.</li>
 </ul>
+<p>Castora asks for no contacts, accounts, phone, SMS, call log, camera,
+microphone, location or all-files-access permission.</p>
 <hr />
 <h2 id="third-party-services">Third-party services</h2>
 <p>Castora relies on the following third parties. Their handling of
 information is governed by their own privacy policies:</p>
 <table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
 <thead>
 <tr>
 <th>Service</th>
@@ -414,35 +568,64 @@ information is governed by their own privacy policies:</p>
 <tbody>
 <tr>
 <td><strong>Google AdMob / Google Mobile Ads</strong></td>
-<td>Showing ads on the free tier</td>
-<td><a
-href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
-and <a
-href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a></td>
+<td>Showing ads on the free tier (phones)</td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a> and <a
+href="https://support.google.com/admob/answer/6128543"
+class="uri">https://support.google.com/admob/answer/6128543</a></td>
+</tr>
+<tr>
+<td><strong>Google User Messaging Platform</strong></td>
+<td>Asking for ad consent where the law requires it</td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></td>
 </tr>
 <tr>
 <td><strong>Google Play Billing</strong></td>
 <td>Processing the Castora Pro purchase</td>
-<td><a
-href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>Google Play In-App Review</strong></td>
+<td>Now and then, Google Play's own sheet to rate Castora; your rating
+goes to Google Play, the app never sees it</td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></td>
 </tr>
 <tr>
 <td><strong>Google Cast SDK</strong></td>
 <td>Discovering and casting to Cast devices on your network</td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>Google connectivity check</strong>
+(<code>connectivitycheck.gstatic.com</code>)</td>
+<td>Telling an IPTV server that does not answer from an internet
+connection that does not work</td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>GitHub Pages</strong> (hosts Mobile Castle's website)</td>
+<td>Delivering the catalogue of Mobile Castle's apps and their
+pictures</td>
 <td><a
-href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></td>
+href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+class="uri">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Your IPTV provider</strong> is also a third party: when you
+<p><strong>Your IPTV provider is also a third party</strong>: when you
 add an IPTV source, the credentials or playlist URL you enter are sent
 to that provider (the service you chose) so it can deliver your streams.
-MobileCastle has no control over, and takes no responsibility for, how
-your IPTV provider handles your data — please review your provider's own
+Mobile Castle has no control over, and takes no responsibility for, how
+your IPTV provider handles your data; please review your provider's own
 privacy policy.</p>
 <hr />
 <h2 id="children">Children</h2>
-<p>Castora is a <strong>general-audience media utility</strong> and is
+<p>Castora is a <strong>general-audience</strong> media utility and is
 <strong>not directed at children</strong>. We do not knowingly collect
 personal information from children. The app is intended for general
 audiences and, in line with the store listing, is not aimed at or
@@ -453,45 +636,47 @@ app in a way that raises a concern, please contact us using the details
 below.</p>
 <hr />
 <h2 id="data-retention-and-deletion">Data retention and deletion</h2>
-<ul>
-<li>Data stored locally by Castora (IPTV sources, preferences, cached
-catalogs, downloads, and the diagnostic log) <strong>stays on your
-device</strong> and is retained until you remove it.</li>
-<li>You can delete this data at any time by:
+<p>Data stored locally by Castora (IPTV sources, preferences, cached
+catalogs, Mobile Castle's catalogue, downloads, and the diagnostic log)
+<strong>stays on your device and is retained until you remove
+it.</strong></p>
+<p>You can delete this data at any time by:</p>
 <ul>
 <li><strong>uninstalling the app</strong>, which removes its local
 storage (downloads and recordings in <code>Movies/Castora</code> stay
 until you delete them), or</li>
-<li>using the app's in-app actions to remove an IPTV source, clear
-cached content, or delete a download or recording.</li>
-</ul></li>
-<li>MobileCastle does not hold a copy of this data, so there is no
-separate server-side deletion request to make to us.</li>
-<li>For data processed by the third parties above (for example Google's
-advertising data), please use the controls those parties provide — see
-their policies linked above, and your device's <strong>Ads</strong>
-settings.</li>
+<li><strong>using the app's in-app actions</strong> to remove an IPTV
+source, clear cached content, delete a download or recording, or delete
+a video from your device (<em>Also delete from this device</em>).</li>
 </ul>
+<p>Mobile Castle does not hold a copy of this data, so there is no
+separate server-side deletion request to make to us.</p>
+<p>For data processed by the third parties above (for example Google's
+advertising data), please use the controls those parties provide (see
+their policies linked above) and your device's Ads settings.</p>
 <hr />
 <h2 id="security">Security</h2>
 <ul>
 <li>Because Castora keeps your data on your own device and does not run
-a MobileCastle content server, your videos and IPTV details are not
+a Mobile Castle content server, your videos and IPTV details are not
 exposed on our infrastructure.</li>
-<li>Casting happens over your <strong>local network</strong>; keep your
+<li>Casting happens over <strong>your local network</strong>; keep your
 Wi‑Fi network secured.</li>
-<li>Please note that IPTV streams are often delivered over plain
-(non-encrypted) <code>http</code> connections, because many IPTV
-providers do not offer working secure endpoints. This is a limitation of
-IPTV providers, not of Castora, and applies to traffic between your
-device and the provider you chose.</li>
+<li>Please note that <strong>IPTV streams are often delivered over plain
+(non-encrypted) http connections</strong>, because many IPTV providers
+do not offer working secure endpoints. This is a limitation of IPTV
+providers, not of Castora, and applies to traffic between your device
+and the provider you chose.</li>
+<li>Mobile Castle's catalogue and pictures are only downloaded over
+https. The connectivity check uses plain http, as Android's own does; it
+carries nothing about you.</li>
 <li>No method of electronic storage or transmission is 100% secure;
 while we aim to protect your information, we cannot guarantee absolute
 security.</li>
 </ul>
 <hr />
 <h2 id="changes-to-this-policy">Changes to this policy</h2>
-<p>We may update this Privacy Policy from time to time — for example if
+<p>We may update this Privacy Policy from time to time, for example if
 the app adds a feature that changes how information is handled. When we
 do, we will update the <strong>Effective date</strong> above and post
 the revised policy at the URL where this policy is hosted. Significant
@@ -500,8 +685,11 @@ changes may also be noted in the app or its store listing.</p>
 <h2 id="contact">Contact</h2>
 <p>If you have questions about this Privacy Policy or Castora's data
 practices, you can contact us at:</p>
-<p><strong>Email:</strong> <a
-href="mailto:mobilecastle.android@gmail.com">mobilecastle.android@gmail.com</a></p>
-<p><strong>Publisher:</strong> MobileCastle (Mobile Castle)</p>
+<ul>
+<li><strong>Email:</strong> <a
+href="mailto:mobilecastle.android@gmail.com"
+class="email">mobilecastle.android@gmail.com</a></li>
+<li><strong>Publisher:</strong> Mobile Castle</li>
+</ul>
 </body>
 </html>
