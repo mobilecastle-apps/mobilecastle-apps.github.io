@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 2,
+  "version": 3,
   "policy": {
     "googleRewardedMinIntervalMinutes": 20,
     "promoSeconds": 10
@@ -332,6 +332,47 @@
         "ko": "자, 수평계, 각도, 소리, 빛, 나침반 등 센서로 측정합니다.",
         "zh-Hans": "尺子、水平仪、角度、声音、光照、指南针及各类传感器测量。",
         "zh-Hant": "直尺、水平儀、角度、聲音、光照、指南針及各類感應器測量。"
+      }
+    },
+    {
+      "package": "com.mobilecastle.docflux",
+      "name": "DocFlux: PDF Tools",
+      "audience": "general",
+      "since": "2026-11-26",
+      "banner": {
+        "url": "docflux/banner-1.webp",
+        "sha256": "81e3924b8e564a03fb48b7292abb32e2f50f7eb475044b40ad0b28cbe96d84ee",
+        "bytes": 19152
+      },
+      "promo": {
+        "url": "docflux/promo-1.webp",
+        "sha256": "2c1ec9f88753e53b2b3afa13d5920c25b9329263b4dc5ee2179dbfd591b446c6",
+        "bytes": 87564
+      },
+      "promoLandscape": {
+        "url": "docflux/promo-landscape-1.webp",
+        "sha256": "f0d93ebec2052452784f625db0d05083067c072a558af0e63125c9e7d2491d4f",
+        "bytes": 75248
+      },
+      "text": {
+        "en": "Scan, merge, split, compress and convert PDFs on your phone. No account needed.",
+        "de": "PDFs scannen, zusammenführen, aufteilen, komprimieren, umwandeln. Ohne Konto.",
+        "es": "Escanea, une, divide, comprime y convierte PDF en tu teléfono. Sin cuenta.",
+        "fr": "Numérisez, fusionnez, divisez, compressez et convertissez vos PDF. Sans compte.",
+        "it": "Scansiona, unisci, dividi, comprimi e converti PDF sul telefono. Senza account.",
+        "pt": "Digitalize, junte, divida, comprima e converta PDFs no celular. Sem conta.",
+        "nl": "PDF's scannen, samenvoegen, splitsen, comprimeren en omzetten. Zonder account.",
+        "ru": "Сканируйте, объединяйте, делите, сжимайте и конвертируйте PDF. Без аккаунта.",
+        "pl": "Skanuj, łącz, dziel, kompresuj i konwertuj PDF-y w telefonie. Bez konta.",
+        "tr": "PDF'leri telefonda tarayın, birleştirin, bölün, sıkıştırın, dönüştürün.",
+        "ar": "امسح ملفات PDF وادمجها وقسّمها واضغطها وحوّلها على هاتفك، دون حساب.",
+        "hi": "फ़ोन पर PDF स्कैन करें, जोड़ें, बाँटें, कंप्रेस करें और बदलें, बिना खाते के।",
+        "id": "Pindai, gabung, pisah, kompres, dan konversi PDF di ponsel. Tanpa akun.",
+        "vi": "Quét, gộp, chia, nén và chuyển đổi PDF trên điện thoại. Không cần tài khoản.",
+        "ja": "PDFのスキャン、結合、分割、圧縮、変換をスマホで。アカウント不要。",
+        "ko": "휴대폰에서 PDF 스캔, 병합, 분할, 압축, 변환. 계정이 필요 없습니다.",
+        "zh-Hans": "在手机上扫描、合并、拆分、压缩和转换 PDF，无需账号。",
+        "zh-Hant": "在手機上掃描、合併、分割、壓縮和轉換 PDF，不需要帳戶。"
       }
     },
     {
