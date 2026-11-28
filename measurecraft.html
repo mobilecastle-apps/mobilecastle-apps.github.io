@@ -201,9 +201,9 @@
 MeasureCraft</h1>
 <p><strong>App:</strong> MeasureCraft: Measure Tools <strong>Package
 name:</strong> com.mobilecastle.measurecraft <strong>Publisher:</strong>
-Mobile Castle <strong>Effective date:</strong> 3 November 2026</p>
-<p>This policy is for the <strong>free version</strong> of MeasureCraft,
-which offers <strong>no in-app purchases</strong>.</p>
+Mobile Castle <strong>Effective date:</strong> 5 November 2026</p>
+<p>This policy is for the version of MeasureCraft that offers the
+optional one-time <strong>MeasureCraft Pro</strong> purchase.</p>
 <p>This Privacy Policy explains what information the MeasureCraft app
 (“MeasureCraft”, “the app”, “we”, “us”) does and does not handle, and
 how. Please read it together with the policies of the third parties
@@ -227,17 +227,22 @@ anywhere.</li>
 Google Play Services for AR (ARCore), a Google service. MeasureCraft
 does not save or send camera pictures.</li>
 <li><strong>Your location is used only by the GPS tools</strong>, while
-they are open. This version never stores a position: a saved GPS
-measurement keeps the distance, area or speed and its accuracy, not
-where you were.</li>
+they are open. Positions are stored only on your device: when you save a
+GPS project (a MeasureCraft Pro feature), and, until you save or clear
+them, the points of a GPS measurement you have not saved yet, so it can
+be resumed.</li>
 <li>MeasureCraft shows ads through <strong>Google AdMob</strong>, a
-third party. To serve ads, AdMob may collect device information and an
-advertising identifier. Ads never receive your measurements, locations,
-notes or exports.</li>
-<li><strong>No purchases in this version.</strong> MeasureCraft offers
-nothing to buy: it does not connect to Google Play Billing, and it does
-not ask for the billing permission. Premium features are coming
-soon.</li>
+third party, on the free tier. To serve ads, AdMob may collect device
+information and an advertising identifier. Ads never receive your
+measurements, locations, notes or exports. Buying the one-time
+<strong>MeasureCraft Pro</strong> upgrade removes ads, and for Pro users
+the ads software is not started at all.</li>
+<li>Purchases are handled by <strong>Google Play Billing</strong>. The
+app never sees your card or bank details.</li>
+<li>On the free tier the app also shows <strong>Mobile Castle’s own
+promotions</strong> of its other apps. To have them ready, it downloads
+a catalogue of those apps and their pictures from
+mobilecastle-apps.github.io; no personal data is sent.</li>
 </ul>
 <p>The rest of this policy gives the detail behind that summary.</p>
 <hr />
@@ -270,17 +275,32 @@ cloud backup. It includes:</p>
 its mode, the value and the details shown with it (for example minimum,
 maximum and average, or the accuracy GPS reported), the confidence
 label, the calibration in use, the date, and any note you type. They are
-saved in a database in the app’s own private storage. This version shows
-the latest five measurements; older ones stay on your device, locked,
-and are never deleted on their own.</li>
-<li><strong>No projects in this version</strong>: saving a walked path
-or area with its points under a name is a planned Premium feature. A
-saved GPS measurement keeps the distance, area or perimeter, speed and
-accuracy, never a position.</li>
+saved in a database in the app’s own private storage. On the free tier
+the latest five measurements are shown; older ones stay on your device,
+locked, and are never deleted on their own.</li>
+<li><strong>Projects</strong> (Pro): a GPS path or area you walk and
+save keeps its points (latitude, longitude, altitude, accuracy and
+time); an AR project keeps its measured points (positions relative to
+where the AR session started, not on a map). Projects are stored only in
+the app’s private storage.</li>
+<li><strong>An unsaved GPS measurement</strong>: while a GPS distance or
+area measurement has points you have not saved, they are kept (latitude,
+longitude, altitude, accuracy and time) in the app’s private storage, so
+the measurement can be resumed if Android closes the app. Saving or
+clearing the points removes them.</li>
 <li><strong>Calibrations</strong>: the calibration values you set for
 each tool, with the date.</li>
+<li><strong>Calibration profiles, custom units and angle
+presets</strong> (Pro): the names and values you give them.</li>
+<li><strong>Your Pro purchase record</strong>: Google Play’s last answer
+about whether you own MeasureCraft Pro, so Pro is available as soon as
+the app opens. It is sealed with a key in the app combined with
+Android’s app-specific device ID, so a copied or edited record is not
+accepted. The device ID is used only for that seal: it is not stored,
+not sent anywhere, and it is not the advertising identifier.</li>
 <li><strong>Your preferences</strong>: for example theme, language,
-units, favorite and recently used tools.</li>
+units, favorite and recently used tools, and your custom colour
+themes.</li>
 <li><strong>Rewarded-ad unlocks</strong>: how many exports or AR
 sessions you have unlocked with a rewarded ad and not yet used (a
 number, nothing else).</li>
@@ -292,11 +312,15 @@ technical log (which tools opened and closed, errors) to a file in the
 app’s own folder on your device, to help troubleshoot problems on real
 hardware. It never contains your measurements, locations or notes, and
 it stays on your device unless you deliberately share it.</li>
+<li><strong>Mobile Castle’s catalogue</strong>: the list of Mobile
+Castle’s apps and their pictures, downloaded for the promotions
+described below. It holds nothing about you.</li>
 </ul>
 <p>All of it is removed when you uninstall MeasureCraft.
 <strong>Settings → Clear history</strong> removes your saved
-measurements, and <strong>Clear all local data</strong> also removes
-calibrations, settings and exports. See <strong>Data retention and
+measurements and projects, and <strong>Clear all local data</strong>
+also removes calibrations, profiles, presets, custom units, settings,
+exports and an unsaved GPS measurement. See <strong>Data retention and
 deletion</strong> below.</p>
 <hr />
 <h2 id="tools-and-what-they-touch">Tools and what they touch</h2>
@@ -338,11 +362,11 @@ class="uri">https://support.google.com/ar?p=how-google-play-services-for-ar-hand
 <p>AR measure uses the camera only while that tool is open. ARCore
 processes the camera images on your device to find surfaces and track
 movement; MeasureCraft keeps only the points you place and the distances
-and areas it works out from them, and never saves or sends a picture. In
-this version, AR measure opens for one session after a short rewarded ad
-you choose to watch (see <strong>Advertising</strong> below). If your
-device needs Google Play Services for AR, the app opens its Google Play
-page; you choose whether to install it.</p>
+and areas it works out from them, and never saves or sends a picture. AR
+measure is a MeasureCraft Pro feature; on the free tier, a short
+rewarded ad you choose to watch opens it for one session. If your device
+needs Google Play Services for AR, the app opens its Google Play page;
+you choose whether to install it.</p>
 <p>According to Google, while an app uses it, Google Play Services for
 AR collects:</p>
 <ul>
@@ -361,12 +385,13 @@ collected.</p>
 <hr />
 <h2 id="advertising-google-admob">Advertising (Google AdMob)</h2>
 <p>MeasureCraft is free and supported by ads served through
-<strong>Google AdMob</strong>, a Google service. Ads appear as banners
-on the tool list, the History and Settings screens, the Calibration
-Center and saved results, never on a tool while it measures, in the AR
-camera view, while the sound meter listens, during a calibration or on
-Android’s permission prompt. There are no full-screen ads when you open
-the app or move between screens.</p>
+<strong>Google AdMob</strong>, a Google service. Ads appear only while
+you are on the free tier, as banners on the tool list, the History and
+Settings screens, the Calibration Center and saved results, never on a
+tool while it measures, in the AR camera view, while the sound meter
+listens, during a calibration or on Android’s permission prompt. There
+are no full-screen ads when you open the app or move between screens.
+The <strong>MeasureCraft Pro</strong> one-time purchase removes ads.</p>
 <p>The ad requests MeasureCraft sends carry no content from the app: no
 measurement, location, note or export is ever passed to AdMob. To select
 and show ads, Google AdMob (and the Google Mobile Ads SDK included in
@@ -388,10 +413,12 @@ required by law (for example, for users in the European Economic Area,
 the UK and Switzerland), MeasureCraft uses Google’s User Messaging
 Platform to show a consent form before serving personalised ads, and no
 ad is requested until that choice is made; you can change your choice at
-any time in <strong>Settings → Privacy options</strong>. You may also
-choose to watch a short rewarded ad to unlock one CSV or PDF export, or
-one AR measuring session; this is optional, and the app says what the ad
-unlocks before it plays.</p>
+any time in <strong>Settings → Privacy options</strong>. If you own
+MeasureCraft Pro, neither the consent form nor the Google Mobile Ads SDK
+is started. On the free tier you may also choose to watch a short
+rewarded ad to unlock one CSV or PDF export, or one AR measuring
+session; this is optional, and the app says what the ad unlocks before
+it plays.</p>
 <ul>
 <li>Google Privacy Policy: <a href="https://policies.google.com/privacy"
 class="uri">https://policies.google.com/privacy</a></li>
@@ -407,13 +434,59 @@ class="uri">https://support.google.com/admob/answer/6128543</a></li>
 your device settings (<strong>Settings → Google → Ads</strong> on most
 Android phones).</p>
 <hr />
-<h2 id="purchases">Purchases</h2>
-<p>This version of MeasureCraft <strong>offers no in-app
-purchases</strong>. It does not connect to Google Play Billing, and no
-part of the app can start a payment. It asks for no billing permission.
-Features planned for a future Premium version show “Premium features are
-coming soon.” If purchases are added in a later version, this policy
-will be updated before that version is released.</p>
+<h2 id="mobile-castles-own-promotions">Mobile Castle’s own
+promotions</h2>
+<p>On the free tier, MeasureCraft also shows promotions for
+<strong>Mobile Castle’s other apps</strong>: a banner where a Google ad
+cannot be shown, and, if you choose to watch one, a short full-screen
+promotion in place of a rewarded ad; it unlocks the same export or AR
+session when it has played to the end. Settings also has a <strong>More
+apps from Mobile Castle</strong> row, for everyone, which opens Mobile
+Castle’s page on Google Play. Tapping a promotion opens that app’s page
+on Google Play.</p>
+<p>To have these promotions ready, offline too, the app downloads a
+catalogue of Mobile Castle’s apps and their pictures from Mobile
+Castle’s website, <code>https://mobilecastle-apps.github.io</code>, when
+it starts and when you return to it. No personal data is sent: nothing
+about you, your device, your measurements or your location goes with the
+request. The site is hosted by GitHub Pages, which, like any web server,
+sees your device’s IP address when it delivers the files (GitHub’s
+privacy statement: <a
+href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+class="uri">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a>).
+The catalogue and pictures are kept in the app’s own storage and removed
+when you uninstall MeasureCraft.</p>
+<p>Promotions are not personalised. To leave out an app you already
+have, MeasureCraft checks on your device which Mobile Castle apps are
+installed; that check never leaves your device. If you own MeasureCraft
+Pro, no promotion is shown and no pictures are downloaded for one; the
+More apps row stays.</p>
+<hr />
+<h2 id="purchases-google-play-billing">Purchases (Google Play
+Billing)</h2>
+<p>The one-time <strong>MeasureCraft Pro</strong> upgrade (which removes
+ads and unlocks unlimited history, calibration profiles, AR measure,
+area projects, CSV and PDF export, custom units and presets, and custom
+colours) is sold and processed through <strong>Google Play
+Billing</strong>. When you buy MeasureCraft Pro:</p>
+<ul>
+<li>Google handles the payment. MeasureCraft never receives or stores
+your payment card or bank details.</li>
+<li>The app only learns whether you own the MeasureCraft Pro
+entitlement, so it can unlock the features and stop showing ads. It
+checks this with Google Play quietly in the background, when the app
+starts and when you return to it; Pro keeps working when you are
+offline.</li>
+</ul>
+<p>Your purchase is governed by Google Play’s terms and privacy
+policy:</p>
+<ul>
+<li>Google Play Terms of Service: <a
+href="https://play.google.com/about/play-terms/"
+class="uri">https://play.google.com/about/play-terms/</a></li>
+<li>Google Privacy Policy: <a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></li>
+</ul>
 <hr />
 <h2 id="app-permissions-and-why-they-are-needed">App permissions and why
 they are needed</h2>
@@ -428,8 +501,10 @@ sound meter.</li>
 app is open; there is no background location.</li>
 <li><strong>Network state</strong> (<code>ACCESS_NETWORK_STATE</code>):
 to check whether you are online before loading an ad.</li>
-<li><strong>Internet</strong> (<code>INTERNET</code>): to load ads and
-for Google Play Services for AR. Measurements are not sent.</li>
+<li><strong>Internet</strong> (<code>INTERNET</code>): to load ads, to
+reach Google Play for the Pro purchase, to download Mobile Castle’s
+catalogue for its promotions, and for Google Play Services for AR.
+Measurements are not sent.</li>
 <li><strong>Added by the Google libraries</strong>: the advertising ID
 and Android’s privacy-preserving ad APIs (<code>AD_ID</code>,
 <code>ACCESS_ADSERVICES_AD_ID</code>,
@@ -437,7 +512,9 @@ and Android’s privacy-preserving ad APIs (<code>AD_ID</code>,
 <code>ACCESS_ADSERVICES_TOPICS</code>) for ads; and background-work
 permissions (<code>WAKE_LOCK</code>,
 <code>RECEIVE_BOOT_COMPLETED</code>, <code>FOREGROUND_SERVICE</code>)
-that the Google libraries use for their own short tasks.</li>
+that the Google libraries use for their own short tasks. Google Play
+purchases (<code>com.android.vending.BILLING</code>), added by the Play
+Billing library.</li>
 </ul>
 <p>MeasureCraft asks for no storage, contacts, accounts, phone, SMS,
 call log or background-location permission. Haptic feedback needs no
@@ -462,7 +539,7 @@ information is governed by their own privacy policies:</p>
 <tbody>
 <tr>
 <td><strong>Google AdMob / Google Mobile Ads</strong></td>
-<td>Showing ads</td>
+<td>Showing ads on the free tier</td>
 <td><a href="https://policies.google.com/privacy"
 class="uri">https://policies.google.com/privacy</a> and <a
 href="https://support.google.com/admob/answer/6128543"
@@ -479,6 +556,20 @@ class="uri">https://policies.google.com/privacy</a></td>
 <td>Tracking surfaces and movement for AR measure</td>
 <td><a href="https://policies.google.com/privacy"
 class="uri">https://policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>Google Play Billing</strong></td>
+<td>Processing the MeasureCraft Pro purchase</td>
+<td><a href="https://policies.google.com/privacy"
+class="uri">https://policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>GitHub Pages</strong> (hosts Mobile Castle’s website)</td>
+<td>Delivering the catalogue of Mobile Castle’s apps and their
+pictures</td>
+<td><a
+href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+class="uri">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a></td>
 </tr>
 </tbody>
 </table>
@@ -498,21 +589,27 @@ app in a way that raises a concern, please contact us using the details
 below.</p>
 <hr />
 <h2 id="data-retention-and-deletion">Data retention and deletion</h2>
-<p>Data stored locally by MeasureCraft (saved measurements, notes,
-calibrations, preferences, exports and the diagnostic log) <strong>stays
-on your device</strong> and is retained until you remove it.
-MeasureCraft never deletes your measurements on its own: this version
-shows the latest five measurements and keeps the rest on your device,
-locked, not deleted.</p>
+<p>Data stored locally by MeasureCraft (saved measurements, projects, an
+unsaved GPS measurement, notes, calibrations and profiles, presets,
+custom units, preferences, the Pro purchase record, exports and the
+diagnostic log) <strong>stays on your device</strong> and is retained
+until you remove it. MeasureCraft never deletes your measurements on its
+own: on the free tier, measurements beyond the latest five are locked,
+not deleted.</p>
 <p>You can delete this data at any time by:</p>
 <ul>
 <li><strong>uninstalling the app</strong>, which removes all of its
 local storage, or</li>
 <li>using <strong>Settings → Clear history</strong> (your saved
-measurements) or <strong>Clear all local data</strong> (also
-calibrations, settings and exports), or deleting a single measurement
-from its page.</li>
+measurements and projects) or <strong>Clear all local data</strong>
+(also calibrations, profiles, presets, custom units, settings, exports
+and an unsaved GPS measurement), or deleting a single measurement or
+project from its page.</li>
 </ul>
+<p><strong>Clear all local data</strong> does not remove the stored Pro
+record, and it does not remove MeasureCraft Pro itself: the purchase
+belongs to your Google Play account, and <strong>Restore
+purchase</strong> asks Google Play again.</p>
 <p>Mobile Castle does not hold a copy of this data, so there is no
 separate server-side deletion request to make to us.</p>
 <p>For data processed by the third parties above (for example Google’s
